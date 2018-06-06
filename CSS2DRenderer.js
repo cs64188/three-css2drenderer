@@ -1,3 +1,5 @@
+var THREE = require('three')
+
 /**
  * @author mrdoob / http://mrdoob.com/
  */
@@ -109,3 +111,6 @@ THREE.CSS2DRenderer = function () {
 	};
 
 };
+
+exports.CSS2DRenderer = THREE.CSS2DRenderer;
+exports.CSS2DObject = THREE.CSS2DObject;
